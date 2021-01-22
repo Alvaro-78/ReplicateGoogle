@@ -1,0 +1,178 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color:black;
+}
+
+.sideRight {
+}
+
+.aRight {
+  padding: .5em;
+}
+
+.icon1 {
+  padding-top: .8em;
+}
+
+.icon2 {
+  padding-left: .5em;
+  padding-bottom: .2em;
+  padding-right: .5em;
+}
+
+.sideLeft {
+  padding-top: 1em;
+}
+
+.aLeft {
+  padding: .5em;
+  padding-top: .5em;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 10em;
+  margin-top: 8em;
+}
+
+.input {
+  display: flex;
+  flex-direction: row;
+
+  width: 35em;
+  height: 2em;
+
+  margin-top: 1em;
+  border: 1px rgb(197, 189, 189) solid ;
+  border-radius: 25px;
+}
+
+.img {
+  width: 18em;
+  height: 7em;
+}
+
+.icon3 {
+  margin:auto; 
+  margin-left: 2em; 
+
+  width: 20px;
+  height: 1.5em;
+}
+
+.icon4 {
+  margin:auto;
+  margin-right: 2em;
+  
+  width: 20px;
+  height: 1.5em;
+}
+
+.textosCentrales {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 20em;
+  height: 5em;
+
+  margin: auto;
+}
+
+.inputTexto1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputTexto1:hover {
+  border: 2px solid grey;
+}
+
+.aTexto1 {
+  margin: auto;
+  width: 8.5em;
+  height: 1.5em;
+}
+
+.inputTexto2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputTexto2:hover {
+  border: 2px solid grey;
+}
+
+.aTexto2 {
+  margin: auto;
+  
+  width: 8.5em;
+  height: 1.5em;
+}
+
+.textoIdiomas {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+
+  height: 34em;
+}
+
+.footerTop {
+  border-top: 1px solid #dadce0;
+  padding-left: 1em;
+  padding-top: 1em;
+
+  height: 2em;
+  background-color: rgb(242, 242, 242);
+}
+
+.footerBotton {
+  border-top: 1px solid #dadce0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  padding-top: 1em;
+
+  height: 2em;
+  background-color: rgb(242, 242, 242);
+}
+
+.textLeft {
+  width: 25em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.textLeft1 {
+  padding-left: 1em;
+}
+
+.textRight {
+  width: 20em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
